@@ -5,3 +5,4 @@ gemspec
 
 gem "puma"
 gem "sqlite3"
+gem 'rspec-rails'
