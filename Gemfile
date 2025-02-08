@@ -11,3 +11,4 @@ gem "alchemy_cms"
 gem "alchemy-devise"
 
 gem "solid_queue"
+gem "mission_control-jobs"
