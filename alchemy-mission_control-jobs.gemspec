@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 7.2.2"
+  spec.add_dependency "alchemy_cms", ">= 7.4.0"
 end
