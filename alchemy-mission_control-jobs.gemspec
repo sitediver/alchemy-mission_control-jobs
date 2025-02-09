@@ -1,14 +1,14 @@
 require_relative "lib/alchemy/mission_control/jobs/version"
 
 Gem::Specification.new do |spec|
-  spec.name        = "alchemy-mission_control-jobs"
-  spec.version     = Alchemy::MissionControl::Jobs::VERSION
-  spec.authors     = [ "Sascha Karnatz" ]
-  spec.email       = [ "68833+kulturbande@users.noreply.github.com" ]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Alchemy::MissionControl::Jobs."
+  spec.name = "alchemy-mission_control-jobs"
+  spec.version = Alchemy::MissionControl::Jobs::VERSION
+  spec.authors = ["Sascha Karnatz"]
+  spec.email = ["68833+kulturbande@users.noreply.github.com"]
+  spec.homepage = "TODO"
+  spec.summary = "TODO: Summary of Alchemy::MissionControl::Jobs."
   spec.description = "TODO: Description of Alchemy::MissionControl::Jobs."
-  spec.license     = "MIT"
+  spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.

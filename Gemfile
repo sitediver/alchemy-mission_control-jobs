@@ -5,10 +5,12 @@ gemspec
 
 gem "puma"
 gem "sqlite3"
-gem 'rspec-rails'
+gem "rspec-rails"
 
 gem "alchemy_cms"
 gem "alchemy-devise"
 
 gem "solid_queue"
 gem "mission_control-jobs"
+
+gem "standard", "~> 1.44"
