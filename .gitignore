@@ -11,9 +11,14 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
+# prevent storing Gemfile.lock
+Gemfile.lock
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
+/spec/dummy/log/*
+/spec/dummy/tmp/*
 !/log/.keep
 !/tmp/.keep
 
@@ -69,5 +74,6 @@ yarn-debug.log*
 
 # Ignore uploaded files in development
 /storage/*
+/spec/dummy/storage/*
 !/storage/.keep
-/public/uploads
+/spec/dummy/public/uploads
