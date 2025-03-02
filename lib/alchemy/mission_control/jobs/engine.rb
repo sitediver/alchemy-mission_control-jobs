@@ -5,6 +5,11 @@ module Alchemy
         isolate_namespace Alchemy
         engine_name 'alchemy_mission_control-jobs'
 
+        initializer 'alchemy_mission_control-jobs.assets' do |app|
+          app.config.assets.precompile += [
+            'alchemy/mission_control/jobs/alchemy-admin.css'
+          ]
+        end
       end
     end
   end

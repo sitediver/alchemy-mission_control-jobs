@@ -2,6 +2,7 @@ Rails.application.config.to_prepare do
   require "alchemy/mission_control/jobs/ability"
 
   Alchemy.register_ability(Alchemy::MissionControl::Jobs::Ability)
+  Alchemy.admin_stylesheets << "alchemy/mission_control/jobs/alchemy-admin.css"
 
   Alchemy::Modules.register_module({
     name: "jobs",
