@@ -25,4 +25,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 7.2.2"
   spec.add_dependency "alchemy_cms", ">= 7.4.0"
   spec.add_dependency "mission_control-jobs", ">= 1.0.1"
+
+  spec.add_development_dependency "capybara", ["~> 3.0"]
+  spec.add_development_dependency "factory_bot_rails", ["~> 6.0"]
+  spec.add_development_dependency "puma", ["~> 6.0"]
+  spec.add_development_dependency "rspec-rails", ["~> 7.1"]
+  spec.add_development_dependency "selenium-webdriver", ["~> 4.29"]
 end

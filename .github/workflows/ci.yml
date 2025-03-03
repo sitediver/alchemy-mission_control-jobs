@@ -37,3 +37,9 @@ jobs:
 
       - name: Run tests
         run: bundle exec rspec
+
+      - uses: actions/upload-artifact@main
+        if: failure()
+        with:
+          name: Screenshots
+          path: spec/dummy/tmp/capybara
