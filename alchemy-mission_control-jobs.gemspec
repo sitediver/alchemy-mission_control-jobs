@@ -30,4 +30,15 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "puma", ["~> 6.0"]
   spec.add_development_dependency "rspec-rails", ["~> 7.1"]
   spec.add_development_dependency "selenium-webdriver", ["~> 4.29"]
+
+  spec.post_install_message = <<~MSG
+    -------------------------------------------------------------
+        Thank you for installing Alchemy MissionControl Jobs.
+    -------------------------------------------------------------
+
+    Please make sure, that alchemy-mission-control-jobs is placed
+    after Alchemy CMS in your Gemfile! 
+    -------------------------------------------------------------
+
+  MSG
 end
