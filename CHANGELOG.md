@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.1](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.1.1) (2025-03-09)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.0...0.1.1)
+
+**Fixed bugs:**
+
+- Fix dependency requirements [\#5](https://github.com/sitediver/alchemy-mission_control-jobs/pull/5) ([kulturbande](https://github.com/kulturbande))
+- Fix feature specs on Github CI [\#3](https://github.com/sitediver/alchemy-mission_control-jobs/pull/3) ([kulturbande](https://github.com/kulturbande))
+
+**Merged pull requests:**
+
+- Add Readme content [\#4](https://github.com/sitediver/alchemy-mission_control-jobs/pull/4) ([kulturbande](https://github.com/kulturbande))
+
 ## [0.1.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.1.0) (2025-03-09)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/d9649bf041e53f340be1914580f03b5206a9d731...0.1.0)
