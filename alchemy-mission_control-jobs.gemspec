@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email = ["68833+kulturbande@users.noreply.github.com"]
   spec.homepage = "https://sitediver.com"
   spec.summary = "A simple integration of Mission Control — Jobs into AlchemyCMS"
-  spec.description = "An integration of Mission Control jobs into AlchemyCMS that allows to administrate of SolidQueue or Rescue."
+  spec.description = "A simple integration of Mission Control jobs into AlchemyCMS that adds a dashboard for Active Job."
   spec.license = "BSD-3-Clause"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
