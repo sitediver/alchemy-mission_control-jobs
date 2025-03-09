@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.2](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.1.2) (2025-03-09)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.1...0.1.2)
+
+**Fixed bugs:**
+
+- Extend Gemspec [\#7](https://github.com/sitediver/alchemy-mission_control-jobs/pull/7) ([kulturbande](https://github.com/kulturbande))
+- Fix Mission Control Jobs requirement [\#6](https://github.com/sitediver/alchemy-mission_control-jobs/pull/6) ([kulturbande](https://github.com/kulturbande))
+
 ## [0.1.1](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.1.1) (2025-03-09)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.0...0.1.1)
