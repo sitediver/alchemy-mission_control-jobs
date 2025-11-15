@@ -1,12 +1,8 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - '*'
-
-permissions:
-  contents: read
+  release:
+    types: [ prereleased, released ]
 
 jobs:
   push:
@@ -22,6 +18,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           persist-credentials: false
+          fetch-tags: true
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
