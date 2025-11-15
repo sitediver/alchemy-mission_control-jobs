@@ -25,3 +25,4 @@ gem "solid_queue"
 
 gem "standard", "~> 1.44"
 gem "github_changelog_generator", require: false
+gem "gem-release", require: false
