@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.2.0) (2025-11-15)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.2...0.2.0)
+
+**Merged pull requests:**
+
+- Add gem release gem [\#14](https://github.com/sitediver/alchemy-mission_control-jobs/pull/14) ([kulturbande](https://github.com/kulturbande))
+- Try another approach to get the release workflow running [\#13](https://github.com/sitediver/alchemy-mission_control-jobs/pull/13) ([kulturbande](https://github.com/kulturbande))
+- Fix release action [\#12](https://github.com/sitediver/alchemy-mission_control-jobs/pull/12) ([kulturbande](https://github.com/kulturbande))
+- Add release Github action [\#11](https://github.com/sitediver/alchemy-mission_control-jobs/pull/11) ([kulturbande](https://github.com/kulturbande))
+- Add changelog generator [\#10](https://github.com/sitediver/alchemy-mission_control-jobs/pull/10) ([kulturbande](https://github.com/kulturbande))
+- Loosen Dependencies [\#9](https://github.com/sitediver/alchemy-mission_control-jobs/pull/9) ([kulturbande](https://github.com/kulturbande))
+- Update to Ruby v3.4.7 [\#8](https://github.com/sitediver/alchemy-mission_control-jobs/pull/8) ([kulturbande](https://github.com/kulturbande))
+
 ## [0.1.2](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.1.2) (2025-03-09)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.1...0.1.2)
