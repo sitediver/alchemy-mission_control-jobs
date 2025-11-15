@@ -14,10 +14,17 @@ $ bundle add alchemy-mission_control-jobs
 
 ## Release a new version
 
-First, generate the changelog entries. Set the version parameter with the upcoming version number.
+First, bump the version with [gem-release](https://bundler.io/guides/creating_gem.html#releasing-the-gem):
+
+```shell
+gem bump --version minor
+```
+
+Second, generate the changelog entries. Set the version parameter with the upcoming version number.
 
 ```shell
 VERSION=x.y.z rake changelog
 ```
 
+Amend that changelog into the previous commit.
 
