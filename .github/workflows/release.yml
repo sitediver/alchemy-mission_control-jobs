@@ -19,6 +19,8 @@ jobs:
         with:
           persist-credentials: false
           fetch-tags: true
+          fetch-depth: 0
+          ref: ${{ github.ref }}
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
