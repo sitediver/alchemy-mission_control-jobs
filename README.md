@@ -12,3 +12,12 @@ Add the gem to your Gemfile and restart the application.
 $ bundle add alchemy-mission_control-jobs
 ```
 
+## Release a new version
+
+First, generate the changelog entries. Set the version parameter with the upcoming version number.
+
+```shell
+VERSION=x.y.z rake changelog
+```
+
+
