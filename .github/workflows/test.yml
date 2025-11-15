@@ -1,4 +1,4 @@
-name: CI
+name: Test
 
 on:
   pull_request:
@@ -6,8 +6,24 @@ on:
     branches: [ main ]
 
 jobs:
-  lint:
+  RSpec:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - alchemy_cms: "7.4"
+            rails: "7.2"
+            ruby: "3.3"
+          - alchemy_cms: "7.4"
+            rails: "8.0"
+            ruby: "3.4"
+          - alchemy_cms: "8.0"
+            rails: "8.0"
+            ruby: "3.4"
+    env:
+      RAILS_VERSION: ${{ matrix.rails }}
+      ALCHEMY_CMS_VERSION: ${{ matrix.alchemy_cms }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -15,22 +31,9 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.4.7
+          ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
-
-      - name: Lint code for consistent style
-        run: bundle exec standardrb
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.4.7
-          bundler-cache: true
+          rubygems: "latest"
 
       - name: Prepare database
         run: bundle exec rake spec:db_prepare

@@ -24,7 +24,8 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = Alchemy::Config.get(:mailer)["mail_from"]
+  alchemy_config = Alchemy::VERSION.start_with?("8.") ? Alchemy.config : Alchemy::Config
+  config.mailer_sender = alchemy_config.get(:mailer)["mail_from"]
 
   # Configure the class responsible to send e-mails.
   config.mailer = "Alchemy::Notifications"
