@@ -1,8 +1,12 @@
 name: Release
 
 on:
-  release:
-    types: [ prereleased, released ]
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: read
 
 jobs:
   push:
