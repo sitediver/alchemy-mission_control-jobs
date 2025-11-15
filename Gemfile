@@ -24,3 +24,4 @@ gem "rails", "~> #{rails_version}.0"
 gem "solid_queue"
 
 gem "standard", "~> 1.44"
+gem "github_changelog_generator", require: false
