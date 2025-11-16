@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.2.2](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.2.2) (2025-11-16)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.2.1...v0.2.2)
+
+**Merged pull requests:**
+
+- Remove the version env from changelog rake task [\#17](https://github.com/sitediver/alchemy-mission_control-jobs/pull/17) ([kulturbande](https://github.com/kulturbande))
+
 ## [v0.2.1](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.2.1) (2025-11-16)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.2.0...v0.2.1)
