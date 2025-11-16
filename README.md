@@ -26,5 +26,6 @@ Second, generate the changelog entries. Set the version parameter with the upcom
 VERSION=x.y.z rake changelog
 ```
 
-Amend that changelog into the previous commit.
+Amend that changelog into the previous commit. After that go to [Releases Page](https://github.com/sitediver/alchemy-mission_control-jobs/releases)
+and create a new release. Be aware the the tag has to start with `v` (e.g `v0.2.0`). Otherwise, the Release action will fail.
 
