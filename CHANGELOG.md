@@ -1,5 +1,21 @@
 # Changelog
 
+## [v0.2.1](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.2.1) (2025-11-16)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.2.0...v0.2.1)
+
+**Merged pull requests:**
+
+- Add last missing README sentence to release section [\#16](https://github.com/sitediver/alchemy-mission_control-jobs/pull/16) ([kulturbande](https://github.com/kulturbande))
+
+## [v0.2.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.2.0) (2025-11-15)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.2.0...v0.2.0)
+
+**Merged pull requests:**
+
+- Try to get the release workflow up and running [\#15](https://github.com/sitediver/alchemy-mission_control-jobs/pull/15) ([kulturbande](https://github.com/kulturbande))
+
 ## [0.2.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/0.2.0) (2025-11-15)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/0.1.2...0.2.0)
