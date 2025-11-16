@@ -23,7 +23,7 @@ gem bump --version minor
 Second, generate the changelog entries. Set the version parameter with the upcoming version number.
 
 ```shell
-VERSION=x.y.z rake changelog
+rake changelog
 ```
 
 Amend that changelog into the previous commit. After that go to [Releases Page](https://github.com/sitediver/alchemy-mission_control-jobs/releases)

@@ -33,5 +33,5 @@ OpenSSL::SSL::SSLContext.const_set(:DEFAULT_CERT_STORE, s.freeze)
 GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   config.user = "sitediver"
   config.project = "alchemy-mission_control-jobs"
-  config.future_release = ENV["VERSION"]
+  config.future_release = "v#{Alchemy::MissionControl::Jobs::VERSION}"
 end
