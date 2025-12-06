@@ -16,7 +16,7 @@
 <body>
 
 <main>
-  <%= render "layouts/mission_control/jobs/application_selection" %>
+  <%= render "layouts/mission_control/jobs/application_selection" if selectable_applications.any? %>
   <%= render "layouts/mission_control/jobs/flash" %>
   <%= render "layouts/mission_control/jobs/navigation" %>
   <%= yield %>
