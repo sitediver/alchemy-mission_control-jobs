@@ -1,5 +1,5 @@
 :root {
-    --bulma-scheme-main: var(--color-grey_light);
+    --bulma-scheme-main: var(--body-background-color, var(--color-grey_light));
 }
 
 main {
