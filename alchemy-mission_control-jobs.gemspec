@@ -39,6 +39,5 @@ Gem::Specification.new do |spec|
     Please make sure, that alchemy-mission-control-jobs is placed
     after Alchemy CMS in your Gemfile! 
     -------------------------------------------------------------
-
   MSG
 end

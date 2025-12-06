@@ -1,3 +1,7 @@
 :root {
     --bulma-scheme-main: var(--color-grey_light);
 }
+
+main {
+    padding: 1rem 1.5rem;
+}

@@ -13,8 +13,6 @@ else
   gem "alchemy-devise", "~> #{alchemy_cms_version}"
 end
 
-gem "mission_control-jobs"
-
 # Specify your gem's dependencies in alchemy-mission_control-jobs.gemspec.
 gemspec
 
