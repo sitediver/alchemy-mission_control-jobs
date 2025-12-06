@@ -5,7 +5,7 @@ gem "sqlite3"
 
 alchemy_cms_version = ENV.fetch("ALCHEMY_CMS_VERSION", "8.0")
 if alchemy_cms_version == "8.0"
-  gem "alchemy_cms", "~> 8.0.0.c"
+  gem "alchemy_cms", github: "AlchemyCMS/alchemy_cms", branch: "8.0-stable"
   gem "alchemy-devise", github: "AlchemyCMS/alchemy-devise", branch: "main"
   gem "propshaft"
 else
