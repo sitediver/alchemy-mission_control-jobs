@@ -4,6 +4,8 @@ A simple integration of Mission Control — Jobs into AlchemyCMS. It adds a new 
 interface and integrates the Mission Control - Jobs Backend via iframe into the Alchemy Backend. Mission Control Backend
 is only available for admin users.
 
+![Preview of Alchemy CMS Admin Interface with Job Menu Point selected](preview.png)
+
 ## Installation
 
 Add the gem to your Gemfile and restart the application.
