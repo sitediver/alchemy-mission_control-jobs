@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.4.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.4.0) (2026-02-07)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.3.1...v0.4.0)
+
+**Merged pull requests:**
+
+- Allow Alchemy 8.1 and Rails 8.1 [\#22](https://github.com/sitediver/alchemy-mission_control-jobs/pull/22) ([kulturbande](https://github.com/kulturbande))
+
 ## [v0.3.1](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.3.1) (2025-12-06)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.3.0...v0.3.1)
