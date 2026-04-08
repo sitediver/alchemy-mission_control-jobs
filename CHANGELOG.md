@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.5.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.5.0) (2026-04-08)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.4.0...v0.5.0)
+
+**Merged pull requests:**
+
+- Allow AlchemyCMS v8.2.0 [\#23](https://github.com/sitediver/alchemy-mission_control-jobs/pull/23) ([kulturbande](https://github.com/kulturbande))
+
 ## [v0.4.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.4.0) (2026-02-07)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.3.1...v0.4.0)
