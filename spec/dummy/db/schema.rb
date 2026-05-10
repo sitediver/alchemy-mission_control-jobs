@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_11_15_150241) do
+ActiveRecord::Schema[7.2].define(version: 2026_05_10_125132) do
   create_table "alchemy_attachments", force: :cascade do |t|
     t.string "name"
     t.string "file_name"
@@ -261,6 +261,8 @@ ActiveRecord::Schema[7.2].define(version: 2025_11_15_150241) do
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at", precision: nil
     t.string "alchemy_roles", default: "member"
+    t.datetime "remember_created_at"
+    t.string "timezone"
     t.index ["alchemy_roles"], name: "index_alchemy_users_on_alchemy_roles"
     t.index ["email"], name: "index_alchemy_users_on_email", unique: true
     t.index ["firstname"], name: "index_alchemy_users_on_firstname"

@@ -14,7 +14,7 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = 'ae1026cf46a6d966db7905354bcf688870b1a81baf29ac316383bd9e10968ec08c6b22df66f4a856613e9961184c028221a78e5b9315c7f93b99695ca2a168a2'
+  # config.secret_key = '3b2be5fb9180235a26f5880a2436f2c89f2a150616375341ec891c7d2303f7a369240af5a2856aa4857ffd1161b625975517a8e1d43487f596371537af9091c4'
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -24,8 +24,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  alchemy_config = Alchemy::VERSION.start_with?("8.") ? Alchemy.config : Alchemy::Config
-  config.mailer_sender = alchemy_config.get(:mailer)["mail_from"]
+  config.mailer_sender = Alchemy.config.mailer.mail_from
 
   # Configure the class responsible to send e-mails.
   config.mailer = "Alchemy::Notifications"
@@ -91,7 +90,7 @@ Devise.setup do |config|
   # It will change confirmation, password recovery and other workflows
   # to behave the same regardless if the e-mail provided was right or wrong.
   # Does not affect registerable.
-  # config.paranoid = true
+  config.paranoid = true
 
   # By default Devise will store the user in session. You can skip storage for
   # particular strategies by setting this option.
@@ -127,7 +126,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
-  # config.pepper = '396758d90aba93d3f5f9cdad801782194211a3c77e24c36e24c00308e29853739f675c34f05a8a99e6f79292af8f9bf43a02e0af549e2ea3be53a3ca61c49a45'
+  # config.pepper = '847ed0af8ace6bde8d73856d74e31bc1d1dd2012e786fbb34e099a6c3d93fee56800cb5a3a76346c83ef30b8c86aa176582a4b61fb2d3f007c45618a7107e70c'
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -189,7 +188,7 @@ Devise.setup do |config|
   # ==> Configuration for :timeoutable
   # The time you want to timeout the user session without activity. After this
   # time the user will be asked for credentials again. Default is 30 minutes.
-  config.timeout_in = Rails.env.development? ? nil : Alchemy::Config.get(:auto_logout_time).minutes
+  config.timeout_in = Rails.env.development? ? nil : Alchemy.config.auto_logout_time.minutes
 
   # ==> Configuration for :lockable
   # Defines which strategy will be used to lock an account.
@@ -303,7 +302,7 @@ Devise.setup do |config|
   # apps is `200 OK` and `302 Found` respectively, but new apps are generated with
   # these new defaults that match Hotwire/Turbo behavior.
   # Note: These might become the new default in future versions of Devise.
-  config.responder.error_status = :unprocessable_entity
+  config.responder.error_status = :unprocessable_content
   config.responder.redirect_status = :see_other
 
   # ==> Configuration for :registerable
