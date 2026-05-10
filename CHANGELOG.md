@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.6.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.6.0) (2026-05-10)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.5.0...v0.6.0)
+
+**Merged pull requests:**
+
+- Add missing migrations to dummy app [\#26](https://github.com/sitediver/alchemy-mission_control-jobs/pull/26) ([kulturbande](https://github.com/kulturbande))
+- Fix Alchemy deprecation notices [\#25](https://github.com/sitediver/alchemy-mission_control-jobs/pull/25) ([kulturbande](https://github.com/kulturbande))
+- Require AlchemyCMS v8.2.0 [\#24](https://github.com/sitediver/alchemy-mission_control-jobs/pull/24) ([kulturbande](https://github.com/kulturbande))
+
 ## [v0.5.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.5.0) (2026-04-08)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.4.0...v0.5.0)
