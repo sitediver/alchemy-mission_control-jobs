@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.7.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.7.0) (2026-08-31)
+
+[Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.6.0...v0.7.0)
+
+**Merged pull requests:**
+
+- Support alchemy\_roles column in jobs ability [\#27](https://github.com/sitediver/alchemy-mission_control-jobs/pull/27) ([kulturbande](https://github.com/kulturbande))
+
 ## [v0.6.0](https://github.com/sitediver/alchemy-mission_control-jobs/tree/v0.6.0) (2026-05-10)
 
 [Full Changelog](https://github.com/sitediver/alchemy-mission_control-jobs/compare/v0.5.0...v0.6.0)
