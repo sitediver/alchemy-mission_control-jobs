@@ -34,6 +34,11 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
           rubygems: "latest"
+          
+      - name: Install libvips
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -qq --fix-missing libvips
 
       - name: Prepare database
         run: bundle exec rake spec:db_prepare
