@@ -18,7 +18,7 @@ module Alchemy
         private
 
         def admin?
-          @user.try(:has_role?, :admin)
+          @user.try(:has_role?, :admin) || @user.try(:has_alchemy_role?, :admin)
         end
       end
     end
